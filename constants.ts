@@ -24,7 +24,8 @@ export const PRODUCTS: Product[] = [
     category: 'Wedding',
     thumbnail: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=800&auto=format&fit=crop',
     price: 49,
-    demoUrl: 'products/wedding-eternity/index.html',
+    // Sử dụng đường dẫn tương đối để tránh lỗi 404 trên GitHub Pages
+    demoUrl: './products/wedding-eternity/index.html',
     features: ['Lịch đếm ngược thời gian thực', 'Dòng kỷ niệm Our Story', 'Gallery ảnh tương tác', 'Bản đồ vị trí chính xác', 'Âm nhạc nền lãng mạn'],
     tags: ['Luxury', 'Animation', 'Mobile First']
   },
@@ -35,7 +36,7 @@ export const PRODUCTS: Product[] = [
     category: 'Hotel',
     thumbnail: 'https://picsum.photos/seed/hotel1/800/600',
     price: 99,
-    demoUrl: 'products/hotel-grand/index.html',
+    demoUrl: './products/hotel-grand/index.html',
     features: ['Room Catalog', 'Check-in/out form', 'Review System', 'Multilingual'],
     tags: ['Business', 'Premium', 'Clean']
   },
@@ -46,7 +47,7 @@ export const PRODUCTS: Product[] = [
     category: 'Portfolio',
     thumbnail: 'https://picsum.photos/seed/port1/800/600',
     price: 39,
-    demoUrl: 'products/portfolio-creative/index.html',
+    demoUrl: './products/portfolio-creative/index.html',
     features: ['Case Studies', 'Filterable Grid', 'Smooth Scroll', 'Contact Integration'],
     tags: ['Visual', 'Minimalist', 'Fast']
   },
@@ -57,7 +58,7 @@ export const PRODUCTS: Product[] = [
     category: 'Restaurant',
     thumbnail: 'https://picsum.photos/seed/rest1/800/600',
     price: 59,
-    demoUrl: 'products/rest-gourmet/index.html',
+    demoUrl: './products/rest-gourmet/index.html',
     features: ['Digital Menu', 'Online Reservation', 'Social Integration', 'Location Map'],
     tags: ['Food', 'Modern', 'Responsive']
   },
@@ -68,7 +69,7 @@ export const PRODUCTS: Product[] = [
     category: 'Business',
     thumbnail: 'https://picsum.photos/seed/biz1/800/600',
     price: 79,
-    demoUrl: 'products/biz-corporate/index.html',
+    demoUrl: './products/biz-corporate/index.html',
     features: ['Service Listing', 'Team Section', 'Testimonials', 'Lead Form'],
     tags: ['Professional', 'Corporate', 'Secure']
   }
