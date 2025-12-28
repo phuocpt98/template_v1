@@ -1,0 +1,8 @@
+{
+  "name": "template web",
+  "description": "A high-performance static site for showcasing web templates (wedding, hotel, etc.) and capturing leads via Google Sheets integration, powered by AI consulting.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
